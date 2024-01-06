@@ -105,3 +105,12 @@ border-radius: 10px;
 background: #FFF8F3;
 margin:130px 0px;
 }
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+.about-info-contener{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
