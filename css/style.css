@@ -12,6 +12,20 @@ font-style: normal;
 font-weight: 700;
 color:#fff;
 }
+.section-title{
+    color:#181818;
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.section-description{
+    color:#757575;
+text-align: center;
+font-size: 18px;
+}
 /* nav  related style */
 nav{
     display: flex;
@@ -45,12 +59,49 @@ nav a{
 /* header releted style */
 .header{
     background-color:#FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .baner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content:space-between ;
 }
 .baner .prople-pic{
     width: 500px;
+}
+.banar-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banar-title{
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.baner-description{
+    margin-top: 0px;
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+
+}
+.baner-content{
+    max-width: 500px;
+}
+/* main section styles */
+
+/* about section styles */
+.about{
+padding: 130px;
+border-radius: 10px;
+background: #FFF8F3;
+margin:130px 0px;
 }
